@@ -9,11 +9,11 @@ This project studies whether machine learning can help experts decide which vacc
 
 **Main result:** in the final historical test, gradient boosting captured half of the eligible future threshold crossings within **806 ranked pairs**, compared with **1,531** for threshold proximity—**47.4% fewer pairs to examine**.
 
-[Presentation notebook](VAERS_Presentation.ipynb) · [HTML presentation](VAERS_Presentation.html) · [Poster PDF](poster/AIPM_VAERS_Poster_2026_36x42.pdf)
+[Presentation notebook](VAERS_Presentation.ipynb) · [HTML presentation](VAERS_Presentation.html) · [Poster PDF](poster/AIPM_VAERS_Poster_2026_42x36.pdf)
 
 The notebook contains simple explanations and executed graphs. Download the HTML file to read the presentation in a browser without running Python.
 
-**Reproducible release:** frozen aggregate data, corrected source, saved predictions, four publication-quality graphs, and the editable 36 × 42 poster are included. No separate data download is required for the main notebook.
+**Reproducible release:** frozen aggregate data, corrected source, saved predictions, four publication-quality graphs, the 42 × 36 poster PDF, and archived editable poster source are included. No separate data download is required for the main notebook.
 
 ## The question
 
@@ -93,7 +93,7 @@ See [methods](docs/METHODS.md) for the exact model settings and [data provenance
 | `analysis/verify_results.py`, `analysis/verify_ties.py` | Numerical verification scripts |
 | `analysis/inputs/`, `analysis/results/` | Frozen inputs and regenerated results |
 | `figures/`, `tables/` | Graphs in PNG/PDF format and small CSV tables |
-| `poster/` | Accepted 36 × 42 PDF, editable LaTeX, logos, and poster graphs |
+| `poster/` | Accepted 42 × 36 PDF; archived LaTeX, logos, and poster graphs |
 | `docs/` | Methods, data dictionary, and original raw-file hashes |
 | `scripts/` | Optional raw-panel reconstruction and release integrity check |
 | `.github/workflows/` | Automated numerical verification |

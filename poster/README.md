@@ -1,15 +1,18 @@
 # Research poster
 
-[AIPM_VAERS_Poster_2026_36x42.pdf](AIPM_VAERS_Poster_2026_36x42.pdf) is the
-accepted print master: **36 inches wide × 42 inches tall**, with the compact
-contact footer and UCI logos at the top. Print at actual size (100%).
+[AIPM_VAERS_Poster_2026_42x36.pdf](AIPM_VAERS_Poster_2026_42x36.pdf) is the
+current print master supplied by Natanael Alpay on 8 November 2026:
+**42 inches wide × 36 inches tall (landscape)**, with the compact contact footer
+and UCI logos at the top. Print at actual size (100%). The PDF is preserved
+exactly as uploaded.
 
-The [source directory](source/) contains the recovered editable LaTeX, the two
-transparent logos, vector graphs, and numeric macros. The accepted PDF is
-preserved unchanged. The source was not recompiled for this repository because
-the available TeX installation lacks the required format/packages.
+The [source directory](source/) contains the archived LaTeX for the earlier
+**36 × 42 portrait poster**, the two transparent logos, vector graphs, and
+numeric macros. It does not reproduce the current landscape PDF; updated
+LaTeX for the supplied PDF has not been provided.
 
-With a full TeX Live installation, or in Overleaf using pdfLaTeX, compile twice:
+To build the archived portrait version with a full TeX Live installation, or
+in Overleaf using pdfLaTeX, compile twice:
 
 ```bash
 cd poster/source
