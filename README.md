@@ -9,11 +9,11 @@ This project studies whether machine learning can help experts decide which vacc
 
 **Main result:** in the final historical test, gradient boosting captured half of the eligible future threshold crossings within **806 ranked pairs**, compared with **1,531** for threshold proximity—**47.4% fewer pairs to examine**.
 
-[Presentation notebook](VAERS_Presentation.ipynb) · [HTML presentation](VAERS_Presentation.html) · [Poster PDF](poster/AIPM_VAERS_Poster_2026_42x36.pdf)
+[Read presentation online](https://nbviewer.org/github/AlpayNatanael/VAERS-Signal-Prioritization/blob/main/VAERS_Presentation.ipynb) · [Presentation notebook](VAERS_Presentation.ipynb) · [Poster PDF](poster/AIPM_VAERS_Poster_2026_42x36.pdf)
 
-The notebook contains simple explanations and executed graphs. Download the HTML file to read the presentation in a browser without running Python.
+The online viewer shows the executed notebook with explanations, tables, and all four graphs; no Python installation is needed. For the HTML version with code hidden, open [VAERS_Presentation.html](VAERS_Presentation.html), choose **Download raw file**, and open the saved file in your browser. GitHub's normal HTML file view displays source code rather than the rendered presentation. Equations in the downloaded HTML may need an internet connection for MathJax.
 
-**Reproducible release:** frozen aggregate data, corrected source, saved predictions, four publication-quality graphs, the 42 × 36 poster PDF, and archived editable poster source are included. No separate data download is required for the main notebook.
+**Reproducible release:** frozen aggregate data, corrected source, saved predictions, four publication-quality graphs, and the 42 × 36 poster PDF are included. No separate data download is required for the main notebook.
 
 ## The question
 
@@ -75,8 +75,6 @@ The command executes every notebook cell using IPython, refits both models acros
 
 The latest recorded run passed **437 numerical checks**, an exhaustive **24-permutation tie check**, and **18 presentation consistency checks**. Details are in [execution_report.json](execution_report.json).
 
-The [GitHub Actions workflow](.github/workflows/verify.yml) runs the same full verification on pushes to `main` and pull requests. The workflow is included for execution on GitHub; a local run does not itself constitute a successful hosted Actions run.
-
 ## Data and reproducibility
 
 The source is [VAERS public data](https://vaers.hhs.gov/data.html). The frozen quarterly panel covers **2022Q1–2026Q2** and is included with the runnable package in `analysis/inputs/`, alongside the reference results. Keep these inputs with the code when reproducing the supplied analysis.
@@ -93,10 +91,9 @@ See [methods](docs/METHODS.md) for the exact model settings and [data provenance
 | `analysis/verify_results.py`, `analysis/verify_ties.py` | Numerical verification scripts |
 | `analysis/inputs/`, `analysis/results/` | Frozen inputs and regenerated results |
 | `figures/`, `tables/` | Graphs in PNG/PDF format and small CSV tables |
-| `poster/` | Accepted 42 × 36 PDF; archived LaTeX, logos, and poster graphs |
+| `poster/` | Accepted 42 × 36 poster PDF and print instructions |
 | `docs/` | Methods, data dictionary, and original raw-file hashes |
 | `scripts/` | Optional raw-panel reconstruction and release integrity check |
-| `.github/workflows/` | Automated numerical verification |
 | `CITATION.cff` | Citation metadata |
 
 ## Interpretation and next steps

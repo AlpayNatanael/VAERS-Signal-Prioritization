@@ -22,15 +22,17 @@ git push -u origin main
 If `origin` is already configured, inspect `git remote -v` and use the existing
 correct remote. Do not force-push over an existing repository's history.
 
-After publication, check the **Actions** tab for the first verification run.
-The local numerical checks have passed; the hosted workflow still needs to run
-in GitHub's environment. Recommended repository topics are `vaers`,
-`pharmacovigilance`, `machine-learning`, and `reproducible-research`.
+Before publishing updates, verify the release files with
+`python scripts/check_manifest.py`. The recorded numerical checks are documented
+in the main README and `execution_report.json`. Recommended repository topics
+are `vaers`, `pharmacovigilance`, `machine-learning`, and
+`reproducible-research`.
 
 The software license remains unselected; see [NOTICE.md](../NOTICE.md).
-The accepted print poster is in `poster/`, and its editable source is in
-`poster/source/`. The raw-data rebuild and poster recompilation are optional
-paths, separate from the verified presentation command.
+The accepted print poster is distributed as a PDF in `poster/`.
+The optional raw-data rebuild is separate from the verified presentation command.
 
-If your ZIP extractor omits dotfiles, enable hidden-file extraction so it keeps
-`.git`, `.github`, `.gitignore`, and `.gitattributes`.
+The main README links to the executed notebook through Jupyter nbviewer for
+browser reading. GitHub's HTML file view displays source code; readers should
+use **Download raw file** and open the saved HTML locally to read the version
+with code hidden.

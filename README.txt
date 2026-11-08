@@ -3,9 +3,14 @@ Natanael Alpay | University of California, Irvine
 Prepared 8 November 2026
 
 START HERE
-Open VAERS_Presentation.html in a browser to read the full presentation with
-executed outputs. It works without starting Python. Mathematical equations
-may need an internet connection for the HTML export's MathJax renderer.
+Read the executed presentation online, including its tables and four graphs:
+https://nbviewer.org/github/AlpayNatanael/VAERS-Signal-Prioritization/blob/main/VAERS_Presentation.ipynb
+No Python installation is needed to read it.
+
+For the HTML version with code hidden, open VAERS_Presentation.html on GitHub,
+choose Download raw file, then open the saved file in your browser. GitHub's
+normal file view shows the HTML source rather than the rendered presentation.
+Mathematical equations may need an internet connection for MathJax.
 
 Open VAERS_Presentation.ipynb in Jupyter or VS Code to inspect or rerun the
 notebook. Figures and explanatory tables are already embedded in the saved
@@ -64,4 +69,4 @@ they do not establish vaccine causality, clinical usefulness, or what data
 were publicly available at each simulated forecast date.
 
 The original project notebook and accepted poster PDF have not been edited.
-For the Git repository structure, documentation, and automation, see README.md.
+For the Git repository structure and documentation, see README.md.
