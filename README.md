@@ -3,7 +3,7 @@
 **Presented at**
 
 - **2026 [AIPM](https://ww2.amstat.org/meetings/aipm/2026/index.cfm) Symposium**, UC Berkeley
-- **[CHOC](https://choc.org/events/international-pediatric-and-lifespan-data-science-conference/)’s Pediatric and Lifespan Data Science Conference**
+- **[CHOC](https://choc.org/events/international-pediatric-and-lifespan-data-science-conference/) Hospital Pediatric and Lifespan Data Science Conference**
 
 This project studies whether machine learning can help experts decide which vaccine–event pairs to review first. We use current reporting patterns and reporting history to predict which pairs will cross a statistical screening threshold in the following quarter.
 
