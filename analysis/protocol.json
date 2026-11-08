@@ -1,0 +1,39 @@
+{
+  "purpose": "Verify previously reported exploratory numerical findings and evaluate the same fixed comparisons across all nine existing test quarters.",
+  "status": "Exploratory retrospective analysis of previously examined data; not a new untouched validation set.",
+  "quarters": [
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1"
+  ],
+  "fit": "For candidate quarter t: fit on candidate quarters before t-1, calibrate on t-1, predict t; outcome is t+1.",
+  "history": "Any threshold crossing in available history strictly before t; history begins 2022Q1.",
+  "models": "Fresh project logistic and histogram gradient boosting fits with unchanged parameters and seed 42.",
+  "baselines": [
+    "Current report count",
+    "Previous-quarter report count",
+    "Threshold proximity",
+    "Any earlier crossing then current proximity",
+    "Previous-quarter crossing then current proximity"
+  ],
+  "metrics": [
+    "average precision (independent tied-score implementation and sklearn cross-check)",
+    "top 100/250/500 yield and tie-aware expected yield",
+    "50% and 80% capture workload with tie-aware expectation and bounds",
+    "subgroup AP among prior-crossing versus no-prior-crossing candidates"
+  ],
+  "not_tested": [
+    "real-time historical public availability",
+    "causal vaccine safety",
+    "clinical usefulness",
+    "new model architectures",
+    "expert adjudication",
+    "formal independent significance or dependence-aware confidence intervals"
+  ]
+}

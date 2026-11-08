@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite this repository and identify the commit used."
+type: software
+title: "VAERS Signal Prioritization"
+authors:
+  - family-names: Alpay
+    given-names: Natanael
+    affiliation: "University of California, Irvine"
+version: 1.0.0
+date-released: 2026-11-08
+repository-code: "https://github.com/AlpayNatanael/VAERS-Signal-Prioritization"
+abstract: >-
+  Reproducible retrospective ranking of vaccine-type and MedDRA event-term
+  pairs for next-quarter statistical threshold crossings in VAERS.
+  Includes chronological logistic regression and gradient boosting fits,
+  historical baselines, tie-aware evaluation, an executed presentation
+  notebook, frozen aggregate inputs, and a research poster.
+keywords:
+  - VAERS
+  - pharmacovigilance
+  - machine learning
+  - temporal validation
+  - reproducible research

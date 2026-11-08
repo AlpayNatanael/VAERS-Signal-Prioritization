@@ -1,0 +1,13 @@
+{
+  "analysis_years": "2022\u20132026",
+  "last_complete_receipt_quarter": "2026Q2",
+  "panel_rows": 228652,
+  "candidate_rows": 200220,
+  "final_test_candidate_quarter": "2026Q1",
+  "final_test_outcome_quarter": "2026Q2",
+  "final_test_n_candidates": 6926,
+  "final_test_n_emerging": 294,
+  "final_test_emerging_rate": 0.042448743863701996,
+  "best_final_model": "Gradient Boosting",
+  "best_final_auprc": 0.20470579909691364
+}

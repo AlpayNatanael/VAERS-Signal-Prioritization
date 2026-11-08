@@ -1,0 +1,103 @@
+{
+  "all_checks_passed": true,
+  "checks": 437,
+  "claims": {
+    "final_n_candidates": 6926,
+    "final_n_crossings": 294,
+    "returning_crossings": 245,
+    "first_observed_crossings": 49,
+    "top100_previous_crossing_candidates": 100,
+    "top100_total_crossings": 32,
+    "top100_returning_crossings": 32,
+    "top100_first_crossings": 0,
+    "top806_total_crossings": 147,
+    "top806_returning_crossings": 142,
+    "top806_first_crossings": 5,
+    "history_baseline_AP_legacy_float_encoding": 0.13408443464332218,
+    "history_baseline_AP_exact_lexicographic": 0.13408443464332218
+  },
+  "quarterly_comparisons": [
+    {
+      "population": "All eligible",
+      "comparison": "Gradient boosting vs Threshold proximity",
+      "quarters_higher_AP": 9,
+      "quarters_lower_AP": 0,
+      "mean_AP_difference": 0.08357609823680419
+    },
+    {
+      "population": "All eligible",
+      "comparison": "Gradient boosting vs History then proximity",
+      "quarters_higher_AP": 9,
+      "quarters_lower_AP": 0,
+      "mean_AP_difference": 0.043128134991107986
+    },
+    {
+      "population": "All eligible",
+      "comparison": "Gradient boosting vs Logistic regression",
+      "quarters_higher_AP": 7,
+      "quarters_lower_AP": 2,
+      "mean_AP_difference": 0.018842165863960456
+    },
+    {
+      "population": "No earlier crossing",
+      "comparison": "Gradient boosting vs Threshold proximity",
+      "quarters_higher_AP": 9,
+      "quarters_lower_AP": 0,
+      "mean_AP_difference": 0.027604641602852198
+    },
+    {
+      "population": "No earlier crossing",
+      "comparison": "Gradient boosting vs History then proximity",
+      "quarters_higher_AP": 9,
+      "quarters_lower_AP": 0,
+      "mean_AP_difference": 0.027604641602852198
+    },
+    {
+      "population": "No earlier crossing",
+      "comparison": "Gradient boosting vs Logistic regression",
+      "quarters_higher_AP": 7,
+      "quarters_lower_AP": 2,
+      "mean_AP_difference": 0.009602059439038572
+    },
+    {
+      "population": "Earlier crossing",
+      "comparison": "Gradient boosting vs Threshold proximity",
+      "quarters_higher_AP": 9,
+      "quarters_lower_AP": 0,
+      "mean_AP_difference": 0.05782949489098862
+    },
+    {
+      "population": "Earlier crossing",
+      "comparison": "Gradient boosting vs History then proximity",
+      "quarters_higher_AP": 9,
+      "quarters_lower_AP": 0,
+      "mean_AP_difference": 0.05782949489098862
+    },
+    {
+      "population": "Earlier crossing",
+      "comparison": "Gradient boosting vs Logistic regression",
+      "quarters_higher_AP": 6,
+      "quarters_lower_AP": 3,
+      "mean_AP_difference": 0.02071147276405338
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "source_hashes": {
+    "inputs/quarterly_panel.pkl": "210f992d4c1a4aab77e6149f335a2b65d5aba7aa7adabc14b3927d66084cffbd",
+    "inputs/reference_final_scored.pkl": "d24af18974648c5736b387625ce668e7d35663c08ae0db37741e457323b09480",
+    "inputs/reference_rolling.csv": "db9c2cba64890b8773fe6b0dea2e18283efeb5e34b2e86d66f9e345d7c9f67da",
+    "source/vaers_pipeline.py": "04a38e89dd523cdca3638144c93a2df26219d5b1f6157ce3ddbc93105eb9d6b9",
+    "verify_results.py": "ef43329d49749947b56d177797532aeee7735dc9c5c1d99e38f5076ed975de21",
+    "protocol.json": "755868b73ddead6631974d115f607df95ccda44b71c0b73512147896c6e988e3"
+  },
+  "elapsed_seconds": 40.135464297,
+  "scope": "Fresh model fits from previously audited quarterly panel. Exploratory retrospective checks; no new raw-data rebuild, real-time snapshots, expert review, or causal validation."
+}

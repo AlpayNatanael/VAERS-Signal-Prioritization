@@ -1,0 +1,39 @@
+{
+  "executed_at": "2026-11-08T11:55:18.033060-08:00",
+  "fresh_fit_windows": 9,
+  "fresh_fitted_models": 18,
+  "numerical_checks_passed": 437,
+  "tie_permutations_checked": 24,
+  "presentation_checks": {
+    "candidate_and_positive_counts": true,
+    "first_and_returning_counts": true,
+    "All eligible_Gradient boosting_AP": true,
+    "All eligible_Logistic regression_AP": true,
+    "All eligible_History then proximity_AP": true,
+    "All eligible_Threshold proximity_AP": true,
+    "No earlier crossing_Gradient boosting_AP": true,
+    "No earlier crossing_Logistic regression_AP": true,
+    "No earlier crossing_History then proximity_AP": true,
+    "No earlier crossing_Threshold proximity_AP": true,
+    "Gradient boosting_capture_endpoints": true,
+    "Logistic regression_capture_endpoints": true,
+    "History then proximity_capture_endpoints": true,
+    "Threshold proximity_capture_endpoints": true,
+    "Gradient boosting_half_capture": true,
+    "Threshold proximity_half_capture": true,
+    "top100_strata": true,
+    "coverage_reconciles": true
+  },
+  "elapsed_seconds": 43.159118422000574,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "scope": "Fresh model fits from previously audited quarterly panel. Exploratory retrospective checks; no new raw-data rebuild, real-time snapshots, expert review, or causal validation.",
+  "notebook_execution_engine": "IPython in a fresh Python process; no kernel sockets"
+}

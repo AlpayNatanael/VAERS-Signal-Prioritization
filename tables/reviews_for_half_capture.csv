@@ -1,0 +1,5 @@
+Method,Reviews to capture 147 positives
+Gradient boosting,806
+Logistic regression,"1,002"
+History + proximity,994.24 (tie expectation)
+Threshold proximity,"1,531"

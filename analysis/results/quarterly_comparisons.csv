@@ -1,0 +1,10 @@
+population,comparison,quarters_higher_AP,quarters_lower_AP,mean_AP_difference
+All eligible,Gradient boosting vs Threshold proximity,9,0,0.08357609823680419
+All eligible,Gradient boosting vs History then proximity,9,0,0.043128134991107986
+All eligible,Gradient boosting vs Logistic regression,7,2,0.018842165863960456
+No earlier crossing,Gradient boosting vs Threshold proximity,9,0,0.027604641602852198
+No earlier crossing,Gradient boosting vs History then proximity,9,0,0.027604641602852198
+No earlier crossing,Gradient boosting vs Logistic regression,7,2,0.009602059439038572
+Earlier crossing,Gradient boosting vs Threshold proximity,9,0,0.05782949489098862
+Earlier crossing,Gradient boosting vs History then proximity,9,0,0.05782949489098862
+Earlier crossing,Gradient boosting vs Logistic regression,6,3,0.02071147276405338

@@ -1,0 +1,487 @@
+quarter,population,model,capture_fraction,target_positives,stable_order_reviews,tie_expected_reviews,tie_min_reviews,tie_max_reviews,score_tie_size_at_target
+2024Q1,All eligible,Gradient boosting,0.5,215,1612,1612.0,1612,1612,1
+2024Q1,All eligible,Gradient boosting,0.8,344,3768,3768.0,3768,3768,1
+2024Q1,All eligible,Logistic regression,0.5,215,1526,1526.0,1526,1526,1
+2024Q1,All eligible,Logistic regression,0.8,344,3659,3659.0,3659,3659,1
+2024Q1,All eligible,Threshold proximity,0.5,215,1987,1981.3333333333333,1975,1994,21
+2024Q1,All eligible,Threshold proximity,0.8,344,8861,8861.5,8861,8862,2
+2024Q1,All eligible,History then proximity,0.5,215,1713,1578.04,1318,1909,640
+2024Q1,All eligible,History then proximity,0.8,344,3509,3512.3333333333335,3507,3523,18
+2024Q1,All eligible,Previous crossing then proximity,0.5,215,2053,2053.0,2053,2053,1
+2024Q1,All eligible,Previous crossing then proximity,0.8,344,8254,8154.88524590164,3080,8608,5588
+2024Q1,All eligible,Current count,0.5,215,2062,2059.164835164835,2020,3802,1872
+2024Q1,All eligible,Current count,0.8,344,7855,6530.65625,3931,12047,8243
+2024Q1,All eligible,Previous count,0.5,215,1797,1784.875,1729,2027,313
+2024Q1,All eligible,Previous count,0.8,344,4706,4388.090909090909,4041,5950,1952
+2024Q1,All eligible,PRR,0.5,215,8588,8588.0,8588,8588,1
+2024Q1,All eligible,PRR,0.8,344,10282,10282.0,10282,10282,1
+2024Q1,All eligible,Shrinkage proxy,0.5,215,7324,7322.666666666667,7322,7324,4
+2024Q1,All eligible,Shrinkage proxy,0.8,344,9839,9838.5,9838,9839,2
+2024Q1,No earlier crossing,Gradient boosting,0.5,65,1344,1344.0,1344,1344,1
+2024Q1,No earlier crossing,Gradient boosting,0.8,104,2961,2961.0,2961,2961,1
+2024Q1,No earlier crossing,Logistic regression,0.5,65,1307,1307.0,1307,1307,1
+2024Q1,No earlier crossing,Logistic regression,0.8,104,2863,2863.0,2863,2863,1
+2024Q1,No earlier crossing,Threshold proximity,0.5,65,2079,1583.090909090909,1428,6546,5150
+2024Q1,No earlier crossing,Threshold proximity,0.8,104,6956,6973.0,6934,7012,79
+2024Q1,No earlier crossing,History then proximity,0.5,65,2079,1583.090909090909,1428,6546,5150
+2024Q1,No earlier crossing,History then proximity,0.8,104,6956,6973.0,6934,7012,79
+2024Q1,No earlier crossing,Previous crossing then proximity,0.5,65,2079,1583.090909090909,1428,6546,5150
+2024Q1,No earlier crossing,Previous crossing then proximity,0.8,104,6956,6973.0,6934,7012,79
+2024Q1,No earlier crossing,Current count,0.5,65,1797,1726.0,985,2272,1319
+2024Q1,No earlier crossing,Current count,0.8,104,7069,5823.452830188679,2311,9471,7212
+2024Q1,No earlier crossing,Previous count,0.5,65,1814,1689.8095238095239,1320,2026,726
+2024Q1,No earlier crossing,Previous count,0.8,104,5112,4878.617647058823,3688,9471,5816
+2024Q1,No earlier crossing,PRR,0.5,65,7003,7003.0,7003,7003,1
+2024Q1,No earlier crossing,PRR,0.8,104,8196,8196.0,8196,8196,1
+2024Q1,No earlier crossing,Shrinkage proxy,0.5,65,5995,5995.0,5995,5995,1
+2024Q1,No earlier crossing,Shrinkage proxy,0.8,104,7895,7895.0,7895,7895,1
+2024Q1,Earlier crossing,Gradient boosting,0.5,150,863,863.0,863,863,1
+2024Q1,Earlier crossing,Gradient boosting,0.8,240,1728,1728.0,1728,1728,1
+2024Q1,Earlier crossing,Logistic regression,0.5,150,879,879.0,879,879,1
+2024Q1,Earlier crossing,Logistic regression,0.8,240,1677,1677.0,1677,1677,1
+2024Q1,Earlier crossing,Threshold proximity,0.5,150,902,902.0,901,903,3
+2024Q1,Earlier crossing,Threshold proximity,0.8,240,1910,1898.54,1343,1934,640
+2024Q1,Earlier crossing,History then proximity,0.5,150,902,902.0,901,903,3
+2024Q1,Earlier crossing,History then proximity,0.8,240,1910,1898.54,1343,1934,640
+2024Q1,Earlier crossing,Previous crossing then proximity,0.5,150,1028,996.8421052631579,932,1086,172
+2024Q1,Earlier crossing,Previous crossing then proximity,0.8,240,1920,1839.2068965517242,1613,2023,438
+2024Q1,Earlier crossing,Current count,0.5,150,890,880.7142857142857,795,1035,267
+2024Q1,Earlier crossing,Current count,0.8,240,1908,1808.6842105263158,1620,2576,1031
+2024Q1,Earlier crossing,Previous count,0.5,150,886,877.9411764705883,857,946,105
+2024Q1,Earlier crossing,Previous count,0.8,240,1828,1815.6969696969697,1746,1976,262
+2024Q1,Earlier crossing,PRR,0.5,150,1428,1428.0,1428,1428,1
+2024Q1,Earlier crossing,PRR,0.8,240,2109,2109.0,2109,2109,1
+2024Q1,Earlier crossing,Shrinkage proxy,0.5,150,1332,1332.0,1332,1332,1
+2024Q1,Earlier crossing,Shrinkage proxy,0.8,240,1999,1999.0,1999,1999,1
+2024Q2,All eligible,Gradient boosting,0.5,201,1159,1159.0,1159,1159,1
+2024Q2,All eligible,Gradient boosting,0.8,321,3128,3128.0,3128,3128,1
+2024Q2,All eligible,Logistic regression,0.5,201,1499,1499.0,1499,1499,1
+2024Q2,All eligible,Logistic regression,0.8,321,3099,3099.0,3099,3099,1
+2024Q2,All eligible,Threshold proximity,0.5,201,1823,1828.0,1819,1846,32
+2024Q2,All eligible,Threshold proximity,0.8,321,6966,7190.317647058823,2348,7307,5043
+2024Q2,All eligible,History then proximity,0.5,201,1563,1456.590909090909,1175,1765,633
+2024Q2,All eligible,History then proximity,0.8,321,3198,3198.0,3198,3198,1
+2024Q2,All eligible,Previous crossing then proximity,0.5,201,1500,1527.3555555555556,976,1553,621
+2024Q2,All eligible,Previous crossing then proximity,0.8,321,5982,6080.86301369863,2556,7411,4927
+2024Q2,All eligible,Current count,0.5,201,2092,2122.421052631579,1537,2899,1475
+2024Q2,All eligible,Current count,0.8,321,5891,5551.262773722628,3019,9214,6331
+2024Q2,All eligible,Previous count,0.5,201,1672,1639.25,1522,1991,500
+2024Q2,All eligible,Previous count,0.8,321,4181,4138.543859649123,2858,4411,1609
+2024Q2,All eligible,PRR,0.5,201,6327,6327.0,6327,6327,1
+2024Q2,All eligible,PRR,0.8,321,7342,7342.0,7342,7342,1
+2024Q2,All eligible,Shrinkage proxy,0.5,201,5805,5805.0,5805,5805,1
+2024Q2,All eligible,Shrinkage proxy,0.8,321,7282,7280.5,7276,7285,10
+2024Q2,No earlier crossing,Gradient boosting,0.5,62,888,888.0,888,888,1
+2024Q2,No earlier crossing,Gradient boosting,0.8,100,2675,2675.0,2675,2675,1
+2024Q2,No earlier crossing,Logistic regression,0.5,62,931,931.0,931,931,1
+2024Q2,No earlier crossing,Logistic regression,0.8,100,2673,2673.0,2673,2673,1
+2024Q2,No earlier crossing,Threshold proximity,0.5,62,1462,1531.095238095238,1115,5484,4410
+2024Q2,No earlier crossing,Threshold proximity,0.8,100,5526,5525.5,5525,5526,2
+2024Q2,No earlier crossing,History then proximity,0.5,62,1462,1531.095238095238,1115,5484,4410
+2024Q2,No earlier crossing,History then proximity,0.8,100,5526,5525.5,5525,5526,2
+2024Q2,No earlier crossing,Previous crossing then proximity,0.5,62,1462,1531.095238095238,1115,5484,4410
+2024Q2,No earlier crossing,Previous crossing then proximity,0.8,100,5526,5525.5,5525,5526,2
+2024Q2,No earlier crossing,Current count,0.5,62,1353,1464.4242424242425,699,1570,903
+2024Q2,No earlier crossing,Current count,0.8,100,4626,4661.166666666666,1608,6842,5293
+2024Q2,No earlier crossing,Previous count,0.5,62,1528,1384.3636363636365,1224,2400,1197
+2024Q2,No earlier crossing,Previous count,0.8,100,4677,4395.333333333333,2438,6842,4448
+2024Q2,No earlier crossing,PRR,0.5,62,4936,4936.0,4936,4936,1
+2024Q2,No earlier crossing,PRR,0.8,100,5674,5673.0,5672,5674,3
+2024Q2,No earlier crossing,Shrinkage proxy,0.5,62,4478,4475.0,4223,4727,509
+2024Q2,No earlier crossing,Shrinkage proxy,0.8,100,5589,5589.0,5589,5589,1
+2024Q2,Earlier crossing,Gradient boosting,0.5,139,704,704.0,704,704,1
+2024Q2,Earlier crossing,Gradient boosting,0.8,222,1521,1521.0,1521,1521,1
+2024Q2,Earlier crossing,Logistic regression,0.5,139,775,775.0,775,775,1
+2024Q2,Earlier crossing,Logistic regression,0.8,222,1506,1506.0,1506,1506,1
+2024Q2,Earlier crossing,Threshold proximity,0.5,139,815,815.0,815,815,1
+2024Q2,Earlier crossing,Threshold proximity,0.8,222,1745,1759.181818181818,1196,1786,633
+2024Q2,Earlier crossing,History then proximity,0.5,139,815,815.0,815,815,1
+2024Q2,Earlier crossing,History then proximity,0.8,222,1745,1759.181818181818,1196,1786,633
+2024Q2,Earlier crossing,Previous crossing then proximity,0.5,139,734,734.0,734,734,1
+2024Q2,Earlier crossing,Previous crossing then proximity,0.8,222,1668,1586.25,1404,1890,517
+2024Q2,Earlier crossing,Current count,0.5,139,936,957.7560975609756,838,1329,572
+2024Q2,Earlier crossing,Current count,0.8,222,1792,1683.051282051282,1412,2373,1038
+2024Q2,Earlier crossing,Previous count,0.5,139,773,766.4444444444445,697,822,142
+2024Q2,Earlier crossing,Previous count,0.8,222,1767,1670.3055555555557,1597,1974,412
+2024Q2,Earlier crossing,PRR,0.5,139,1195,1195.0,1195,1195,2
+2024Q2,Earlier crossing,PRR,0.8,222,1687,1687.0,1687,1687,1
+2024Q2,Earlier crossing,Shrinkage proxy,0.5,139,1083,1083.5,1083,1084,2
+2024Q2,Earlier crossing,Shrinkage proxy,0.8,222,1717,1717.0,1717,1717,1
+2024Q3,All eligible,Gradient boosting,0.5,186,1071,1071.0,1071,1071,1
+2024Q3,All eligible,Gradient boosting,0.8,298,3193,3193.0,3193,3193,1
+2024Q3,All eligible,Logistic regression,0.5,186,1167,1167.0,1167,1167,1
+2024Q3,All eligible,Logistic regression,0.8,298,3726,3726.0,3726,3726,1
+2024Q3,All eligible,Threshold proximity,0.5,186,1830,1830.5,1830,1831,2
+2024Q3,All eligible,Threshold proximity,0.8,298,6800,7168.068965517241,2818,7670,4909
+2024Q3,All eligible,History then proximity,0.5,186,1414,1415.0,1413,1421,11
+2024Q3,All eligible,History then proximity,0.8,298,3612,3612.0,3612,3612,1
+2024Q3,All eligible,Previous crossing then proximity,0.5,186,1162,1253.6470588235295,1026,1671,678
+2024Q3,All eligible,Previous crossing then proximity,0.8,298,5453,5956.625,2961,7754,4840
+2024Q3,All eligible,Current count,0.5,186,2075,2099.659793814433,1893,3435,1638
+2024Q3,All eligible,Current count,0.8,298,5690,5457.096153846154,3547,10397,6953
+2024Q3,All eligible,Previous count,0.5,186,1570,1530.4285714285713,1315,1692,418
+2024Q3,All eligible,Previous count,0.8,298,4123,4123.807692307692,2533,4155,1673
+2024Q3,All eligible,PRR,0.5,186,7167,7167.0,7167,7167,1
+2024Q3,All eligible,PRR,0.8,298,8476,8476.0,8476,8476,1
+2024Q3,All eligible,Shrinkage proxy,0.5,186,6621,6621.0,6621,6621,1
+2024Q3,All eligible,Shrinkage proxy,0.8,298,8449,8449.0,8449,8449,1
+2024Q3,No earlier crossing,Gradient boosting,0.5,56,1141,1141.5,1141,1142,2
+2024Q3,No earlier crossing,Gradient boosting,0.8,89,3471,3471.0,3471,3471,1
+2024Q3,No earlier crossing,Logistic regression,0.5,56,1494,1494.0,1494,1494,1
+2024Q3,No earlier crossing,Logistic regression,0.8,89,3533,3533.0,3533,3533,1
+2024Q3,No earlier crossing,Threshold proximity,0.5,56,1670,1448.6060606060605,1319,5596,4309
+2024Q3,No earlier crossing,Threshold proximity,0.8,89,5715,5716.5,5712,5721,10
+2024Q3,No earlier crossing,History then proximity,0.5,56,1670,1448.6060606060605,1319,5596,4309
+2024Q3,No earlier crossing,History then proximity,0.8,89,5715,5716.5,5712,5721,10
+2024Q3,No earlier crossing,Previous crossing then proximity,0.5,56,1670,1448.6060606060605,1319,5596,4309
+2024Q3,No earlier crossing,Previous crossing then proximity,0.8,89,5715,5716.5,5712,5721,10
+2024Q3,No earlier crossing,Current count,0.5,56,1465,1567.2903225806451,835,1822,1017
+2024Q3,No earlier crossing,Current count,0.8,89,4571,4945.816326530612,1855,7680,5873
+2024Q3,No earlier crossing,Previous count,0.5,56,2102,2081.9444444444443,1027,2144,1134
+2024Q3,No earlier crossing,Previous count,0.8,89,3930,5419.839285714286,2177,7680,5558
+2024Q3,No earlier crossing,PRR,0.5,56,5507,5507.0,5505,5513,11
+2024Q3,No earlier crossing,PRR,0.8,89,6430,6430.0,6430,6430,1
+2024Q3,No earlier crossing,Shrinkage proxy,0.5,56,5407,5407.5,5407,5408,2
+2024Q3,No earlier crossing,Shrinkage proxy,0.8,89,6302,6302.0,6301,6303,3
+2024Q3,Earlier crossing,Gradient boosting,0.5,131,527,527.0,527,527,1
+2024Q3,Earlier crossing,Gradient boosting,0.8,209,1337,1337.0,1337,1337,1
+2024Q3,Earlier crossing,Logistic regression,0.5,131,575,575.0,575,575,1
+2024Q3,Earlier crossing,Logistic regression,0.8,209,1542,1542.0,1542,1542,1
+2024Q3,Earlier crossing,Threshold proximity,0.5,131,786,786.0,786,786,1
+2024Q3,Earlier crossing,Threshold proximity,0.8,209,1936,1864.076923076923,1466,2041,600
+2024Q3,Earlier crossing,History then proximity,0.5,131,786,786.0,786,786,1
+2024Q3,Earlier crossing,History then proximity,0.8,209,1936,1864.076923076923,1466,2041,600
+2024Q3,Earlier crossing,Previous crossing then proximity,0.5,131,583,583.0,583,583,1
+2024Q3,Earlier crossing,Previous crossing then proximity,0.8,209,1541,1541.0,1541,1541,1
+2024Q3,Earlier crossing,Current count,0.5,131,989,963.6153846153846,811,1059,273
+2024Q3,Earlier crossing,Current count,0.8,209,1717,1746.9107142857142,1692,2717,1080
+2024Q3,Earlier crossing,Previous count,0.5,131,749,752.0,697,852,185
+2024Q3,Earlier crossing,Previous count,0.8,209,1523,1487.4285714285713,1473,1978,539
+2024Q3,Earlier crossing,PRR,0.5,131,1425,1425.0,1425,1425,1
+2024Q3,Earlier crossing,PRR,0.8,209,2039,2039.0,2039,2039,1
+2024Q3,Earlier crossing,Shrinkage proxy,0.5,131,1305,1305.0,1305,1305,1
+2024Q3,Earlier crossing,Shrinkage proxy,0.8,209,2078,2078.0,2078,2078,1
+2024Q4,All eligible,Gradient boosting,0.5,309,2120,2120.0,2120,2120,1
+2024Q4,All eligible,Gradient boosting,0.8,494,4771,4771.5,4771,4772,2
+2024Q4,All eligible,Logistic regression,0.5,309,2187,2187.0,2187,2187,1
+2024Q4,All eligible,Logistic regression,0.8,494,5070,5070.0,5070,5070,1
+2024Q4,All eligible,Threshold proximity,0.5,309,2304,2304.0,2304,2304,1
+2024Q4,All eligible,Threshold proximity,0.8,494,8116,8126.0,8112,8140,29
+2024Q4,All eligible,History then proximity,0.5,309,2066,2065.285714285714,2055,2067,18
+2024Q4,All eligible,History then proximity,0.8,494,5468,4783.763157894737,4256,8267,4086
+2024Q4,All eligible,Previous crossing then proximity,0.5,309,2054,2054.8571428571427,2018,2061,49
+2024Q4,All eligible,Previous crossing then proximity,0.8,494,7385,7546.27619047619,3183,7631,4552
+2024Q4,All eligible,Current count,0.5,309,2422,2534.455882352941,2280,3853,1708
+2024Q4,All eligible,Current count,0.8,494,7450,6655.714285714286,4038,11164,7321
+2024Q4,All eligible,Previous count,0.5,309,2355,2443.90625,2017,2736,782
+2024Q4,All eligible,Previous count,0.8,494,7036,6818.032085561497,4610,11164,6740
+2024Q4,All eligible,PRR,0.5,309,7156,7156.0,7156,7156,1
+2024Q4,All eligible,PRR,0.8,494,8758,8758.0,8758,8758,1
+2024Q4,All eligible,Shrinkage proxy,0.5,309,6158,6158.0,6158,6158,1
+2024Q4,All eligible,Shrinkage proxy,0.8,494,8698,8698.0,8698,8698,1
+2024Q4,No earlier crossing,Gradient boosting,0.5,124,1932,1932.0,1932,1932,1
+2024Q4,No earlier crossing,Gradient boosting,0.8,198,4115,4115.0,4115,4115,1
+2024Q4,No earlier crossing,Logistic regression,0.5,124,2288,2288.0,2288,2288,1
+2024Q4,No earlier crossing,Logistic regression,0.8,198,4113,4113.0,4113,4113,1
+2024Q4,No earlier crossing,Threshold proximity,0.5,124,2804,2119.7631578947367,1592,5603,4086
+2024Q4,No earlier crossing,Threshold proximity,0.8,198,6136,6136.0,6135,6137,3
+2024Q4,No earlier crossing,History then proximity,0.5,124,2804,2119.7631578947367,1592,5603,4086
+2024Q4,No earlier crossing,History then proximity,0.8,198,6136,6136.0,6135,6137,3
+2024Q4,No earlier crossing,Previous crossing then proximity,0.5,124,2804,2119.7631578947367,1592,5603,4086
+2024Q4,No earlier crossing,Previous crossing then proximity,0.8,198,6136,6136.0,6135,6137,3
+2024Q4,No earlier crossing,Current count,0.5,124,2041,2014.0625,1218,2302,1147
+2024Q4,No earlier crossing,Current count,0.8,198,6056,5704.555555555556,2376,8574,6305
+2024Q4,No earlier crossing,Previous count,0.5,124,3253,3299.75,2461,8500,6182
+2024Q4,No earlier crossing,Previous count,0.8,198,6728,6477.125,2535,8574,6182
+2024Q4,No earlier crossing,PRR,0.5,124,5640,5639.0,5510,5682,175
+2024Q4,No earlier crossing,PRR,0.8,198,6923,6923.0,6923,6923,1
+2024Q4,No earlier crossing,Shrinkage proxy,0.5,124,4928,4928.0,4928,4928,1
+2024Q4,No earlier crossing,Shrinkage proxy,0.8,198,6722,6722.0,6722,6722,1
+2024Q4,Earlier crossing,Gradient boosting,0.5,185,853,853.0,853,853,1
+2024Q4,Earlier crossing,Gradient boosting,0.8,296,1777,1777.0,1777,1777,1
+2024Q4,Earlier crossing,Logistic regression,0.5,185,870,870.0,870,870,1
+2024Q4,Earlier crossing,Logistic regression,0.8,296,1768,1768.0,1768,1768,1
+2024Q4,Earlier crossing,Threshold proximity,0.5,185,865,863.5,862,865,4
+2024Q4,Earlier crossing,Threshold proximity,0.8,296,1972,1972.0,1972,1972,1
+2024Q4,Earlier crossing,History then proximity,0.5,185,865,863.5,862,865,4
+2024Q4,Earlier crossing,History then proximity,0.8,296,1972,1972.0,1972,1972,1
+2024Q4,Earlier crossing,Previous crossing then proximity,0.5,185,793,772.6666666666666,747,901,171
+2024Q4,Earlier crossing,Previous crossing then proximity,0.8,296,1825,1793.7666666666667,1517,1954,466
+2024Q4,Earlier crossing,Current count,0.5,185,922,961.8518518518518,854,1062,261
+2024Q4,Earlier crossing,Current count,0.8,296,1705,1807.9775280898875,1662,2590,1016
+2024Q4,Earlier crossing,Previous count,0.5,185,910,928.5945945945946,830,982,188
+2024Q4,Earlier crossing,Previous count,0.8,296,1753,1815.923076923077,1654,2075,472
+2024Q4,Earlier crossing,PRR,0.5,185,1235,1235.0,1235,1235,1
+2024Q4,Earlier crossing,PRR,0.8,296,1829,1829.0,1829,1829,1
+2024Q4,Earlier crossing,Shrinkage proxy,0.5,185,1158,1158.5,1158,1159,2
+2024Q4,Earlier crossing,Shrinkage proxy,0.8,296,1904,1903.0,1902,1904,3
+2025Q1,All eligible,Gradient boosting,0.5,184,1099,1099.0,1099,1099,1
+2025Q1,All eligible,Gradient boosting,0.8,294,2982,2982.0,2982,2982,1
+2025Q1,All eligible,Logistic regression,0.5,184,1412,1412.0,1412,1412,1
+2025Q1,All eligible,Logistic regression,0.8,294,3227,3227.0,3227,3227,1
+2025Q1,All eligible,Threshold proximity,0.5,184,2012,2011.5,2011,2012,2
+2025Q1,All eligible,Threshold proximity,0.8,294,8295,8279.0,8228,8398,179
+2025Q1,All eligible,History then proximity,0.5,184,1298,1351.3333333333333,1162,1730,606
+2025Q1,All eligible,History then proximity,0.8,294,3430,3432.5,3423,3442,20
+2025Q1,All eligible,Previous crossing then proximity,0.5,184,1907,1907.0,1907,1907,1
+2025Q1,All eligible,Previous crossing then proximity,0.8,294,8173,8078.3859649122805,2724,8174,5506
+2025Q1,All eligible,Current count,0.5,184,2107,2176.0,1441,3107,1767
+2025Q1,All eligible,Current count,0.8,294,6500,6127.09375,3217,10115,7025
+2025Q1,All eligible,Previous count,0.5,184,1833,1798.3783783783783,1554,1965,447
+2025Q1,All eligible,Previous count,0.8,294,3962,4058.6349206349205,2788,4389,1663
+2025Q1,All eligible,PRR,0.5,184,7021,7021.5,7021,7022,2
+2025Q1,All eligible,PRR,0.8,294,8355,8355.0,8355,8355,1
+2025Q1,All eligible,Shrinkage proxy,0.5,184,6513,6517.5,6502,6533,34
+2025Q1,All eligible,Shrinkage proxy,0.8,294,8299,8299.0,8299,8299,1
+2025Q1,No earlier crossing,Gradient boosting,0.5,56,1077,1077.0,1077,1077,1
+2025Q1,No earlier crossing,Gradient boosting,0.8,89,2414,2414.0,2414,2414,1
+2025Q1,No earlier crossing,Logistic regression,0.5,56,1140,1140.0,1140,1140,1
+2025Q1,No earlier crossing,Logistic regression,0.8,89,2794,2794.0,2794,2794,1
+2025Q1,No earlier crossing,Threshold proximity,0.5,56,2119,2535.7,1380,6333,4982
+2025Q1,No earlier crossing,Threshold proximity,0.8,89,6772,6772.0,6771,6773,3
+2025Q1,No earlier crossing,History then proximity,0.5,56,2119,2535.7,1380,6333,4982
+2025Q1,No earlier crossing,History then proximity,0.8,89,6772,6772.0,6771,6773,3
+2025Q1,No earlier crossing,Previous crossing then proximity,0.5,56,2119,2535.7,1380,6333,4982
+2025Q1,No earlier crossing,Previous crossing then proximity,0.8,89,6772,6772.0,6771,6773,3
+2025Q1,No earlier crossing,Current count,0.5,56,1804,1763.148148148148,649,1806,1183
+2025Q1,No earlier crossing,Current count,0.8,89,5558,5355.857142857143,1839,7807,6023
+2025Q1,No earlier crossing,Previous count,0.5,56,1299,1269.4666666666667,856,1299,457
+2025Q1,No earlier crossing,Previous count,0.8,89,3671,3640.0344827586205,2553,7807,5282
+2025Q1,No earlier crossing,PRR,0.5,56,5836,5836.0,5836,5836,1
+2025Q1,No earlier crossing,PRR,0.8,89,6753,6753.0,6753,6753,1
+2025Q1,No earlier crossing,Shrinkage proxy,0.5,56,5552,5552.0,5552,5552,1
+2025Q1,No earlier crossing,Shrinkage proxy,0.8,89,6763,6763.0,6763,6763,1
+2025Q1,Earlier crossing,Gradient boosting,0.5,128,567,567.0,567,567,1
+2025Q1,Earlier crossing,Gradient boosting,0.8,205,1301,1301.0,1301,1301,1
+2025Q1,Earlier crossing,Logistic regression,0.5,128,701,701.0,701,701,1
+2025Q1,Earlier crossing,Logistic regression,0.8,205,1383,1383.0,1383,1383,1
+2025Q1,Earlier crossing,Threshold proximity,0.5,128,746,746.0,746,746,1
+2025Q1,Earlier crossing,Threshold proximity,0.8,205,1636,1678.1794871794873,1183,1751,606
+2025Q1,Earlier crossing,History then proximity,0.5,128,746,746.0,746,746,1
+2025Q1,Earlier crossing,History then proximity,0.8,205,1636,1678.1794871794873,1183,1751,606
+2025Q1,Earlier crossing,Previous crossing then proximity,0.5,128,812,799.7142857142858,601,815,241
+2025Q1,Earlier crossing,Previous crossing then proximity,0.8,205,1619,1595.0,1311,1808,524
+2025Q1,Earlier crossing,Current count,0.5,128,897,919.25,792,1301,584
+2025Q1,Earlier crossing,Current count,0.8,205,1605,1645.5342465753424,1378,2308,1002
+2025Q1,Earlier crossing,Previous count,0.5,128,903,898.2666666666667,891,1109,247
+2025Q1,Earlier crossing,Previous count,0.8,205,1620,1635.4444444444443,1456,1836,415
+2025Q1,Earlier crossing,PRR,0.5,128,1124,1124.0,1124,1124,1
+2025Q1,Earlier crossing,PRR,0.8,205,1648,1648.0,1648,1648,1
+2025Q1,Earlier crossing,Shrinkage proxy,0.5,128,1034,1034.0,1034,1034,1
+2025Q1,Earlier crossing,Shrinkage proxy,0.8,205,1670,1670.0,1670,1670,1
+2025Q2,All eligible,Gradient boosting,0.5,170,1114,1114.0,1114,1114,1
+2025Q2,All eligible,Gradient boosting,0.8,272,3037,3037.0,3037,3037,1
+2025Q2,All eligible,Logistic regression,0.5,170,1316,1316.0,1316,1316,1
+2025Q2,All eligible,Logistic regression,0.8,272,3065,3065.0,3065,3065,1
+2025Q2,All eligible,Threshold proximity,0.5,170,1644,1643.0,1642,1646,7
+2025Q2,All eligible,Threshold proximity,0.8,272,6128,6363.774193548387,1947,6511,4656
+2025Q2,All eligible,History then proximity,0.5,170,1313,1489.826923076923,1018,1719,752
+2025Q2,All eligible,History then proximity,0.8,272,3121,3121.0,3121,3121,1
+2025Q2,All eligible,Previous crossing then proximity,0.5,170,1401,1392.4038461538462,804,1455,702
+2025Q2,All eligible,Previous crossing then proximity,0.8,272,5506,5596.888888888889,2184,6572,4468
+2025Q2,All eligible,Current count,0.5,170,2033,2102.6481481481483,1209,2386,1284
+2025Q2,All eligible,Current count,0.8,272,4646,5408.158620689655,2488,7987,5643
+2025Q2,All eligible,Previous count,0.5,170,1735,1755.1509433962265,1589,2218,681
+2025Q2,All eligible,Previous count,0.8,272,4300,4212.558441558442,3713,7987,4350
+2025Q2,All eligible,PRR,0.5,170,5443,5440.0,5437,5443,7
+2025Q2,All eligible,PRR,0.8,272,6317,6317.0,6317,6317,1
+2025Q2,All eligible,Shrinkage proxy,0.5,170,4940,4941.5,4938,4952,17
+2025Q2,All eligible,Shrinkage proxy,0.8,272,6342,6342.0,6342,6342,1
+2025Q2,No earlier crossing,Gradient boosting,0.5,56,874,874.0,874,874,1
+2025Q2,No earlier crossing,Gradient boosting,0.8,90,2270,2270.0,2270,2270,1
+2025Q2,No earlier crossing,Logistic regression,0.5,56,932,932.0,932,932,1
+2025Q2,No earlier crossing,Logistic regression,0.8,90,2245,2245.0,2245,2245,1
+2025Q2,No earlier crossing,Threshold proximity,0.5,56,2027,1710.7857142857142,883,4746,3904
+2025Q2,No earlier crossing,Threshold proximity,0.8,90,4795,4795.0,4795,4795,1
+2025Q2,No earlier crossing,History then proximity,0.5,56,2027,1710.7857142857142,883,4746,3904
+2025Q2,No earlier crossing,History then proximity,0.8,90,4795,4795.0,4795,4795,1
+2025Q2,No earlier crossing,Previous crossing then proximity,0.5,56,2027,1710.7857142857142,883,4746,3904
+2025Q2,No earlier crossing,Previous crossing then proximity,0.8,90,4795,4795.0,4795,4795,1
+2025Q2,No earlier crossing,Current count,0.5,56,1945,1773.8,1217,5741,4588
+2025Q2,No earlier crossing,Current count,0.8,90,4513,4174.2,1251,5775,4588
+2025Q2,No earlier crossing,Previous count,0.5,56,1503,1588.7241379310344,897,1900,1031
+2025Q2,No earlier crossing,Previous count,0.8,90,4368,3972.081632653061,1934,5775,3889
+2025Q2,No earlier crossing,PRR,0.5,56,4323,4323.5,4321,4326,6
+2025Q2,No earlier crossing,PRR,0.8,90,4801,4802.0,4801,4803,3
+2025Q2,No earlier crossing,Shrinkage proxy,0.5,56,3949,3949.0,3949,3949,2
+2025Q2,No earlier crossing,Shrinkage proxy,0.8,90,4777,4777.5,4777,4778,2
+2025Q2,Earlier crossing,Gradient boosting,0.5,114,580,580.0,580,580,1
+2025Q2,Earlier crossing,Gradient boosting,0.8,182,1371,1371.0,1371,1371,1
+2025Q2,Earlier crossing,Logistic regression,0.5,114,659,659.0,659,659,1
+2025Q2,Earlier crossing,Logistic regression,0.8,182,1428,1428.0,1428,1428,1
+2025Q2,Earlier crossing,Threshold proximity,0.5,114,660,662.0,656,664,11
+2025Q2,Earlier crossing,Threshold proximity,0.8,182,1663,1663.5961538461538,1030,1731,752
+2025Q2,Earlier crossing,History then proximity,0.5,114,660,662.0,656,664,11
+2025Q2,Earlier crossing,History then proximity,0.8,182,1663,1663.5961538461538,1030,1731,752
+2025Q2,Earlier crossing,Previous crossing then proximity,0.5,114,684,686.0,684,688,5
+2025Q2,Earlier crossing,Previous crossing then proximity,0.8,182,1457,1529.5,1267,1792,564
+2025Q2,Earlier crossing,Current count,0.5,114,936,965.4533333333334,720,1169,523
+2025Q2,Earlier crossing,Current count,0.8,182,1541,1658.2962962962963,1237,2212,1055
+2025Q2,Earlier crossing,Previous count,0.5,114,877,903.6666666666666,825,1061,268
+2025Q2,Earlier crossing,Previous count,0.8,182,1596,1528.2857142857142,1389,1779,417
+2025Q2,Earlier crossing,PRR,0.5,114,1115,1115.0,1115,1115,1
+2025Q2,Earlier crossing,PRR,0.8,182,1516,1516.0,1516,1516,1
+2025Q2,Earlier crossing,Shrinkage proxy,0.5,114,999,999.0,999,999,1
+2025Q2,Earlier crossing,Shrinkage proxy,0.8,182,1574,1574.0,1574,1574,1
+2025Q3,All eligible,Gradient boosting,0.5,180,1008,1008.0,1008,1008,1
+2025Q3,All eligible,Gradient boosting,0.8,288,2875,2875.0,2875,2875,1
+2025Q3,All eligible,Logistic regression,0.5,180,1103,1103.0,1103,1103,1
+2025Q3,All eligible,Logistic regression,0.8,288,2887,2887.0,2887,2887,1
+2025Q3,All eligible,Threshold proximity,0.5,180,1587,1587.0,1587,1587,1
+2025Q3,All eligible,Threshold proximity,0.8,288,7279,7279.5,7279,7280,2
+2025Q3,All eligible,History then proximity,0.5,180,1311,1256.3076923076924,1160,1786,677
+2025Q3,All eligible,History then proximity,0.8,288,2629,2640.9444444444443,2614,3099,502
+2025Q3,All eligible,Previous crossing then proximity,0.5,180,1160,1223.7450980392157,777,1489,762
+2025Q3,All eligible,Previous crossing then proximity,0.8,288,5611,5942.730158730159,2354,7269,4977
+2025Q3,All eligible,Current count,0.5,180,1986,2105.691588785047,1467,2807,1446
+2025Q3,All eligible,Current count,0.8,288,4693,5462.785714285714,2915,8972,6182
+2025Q3,All eligible,Previous count,0.5,180,1602,1682.6382978723404,1384,2022,684
+2025Q3,All eligible,Previous count,0.8,288,4663,4579.833333333333,3557,8972,5504
+2025Q3,All eligible,PRR,0.5,180,5959,5955.0,5910,5964,59
+2025Q3,All eligible,PRR,0.8,288,7141,7141.0,7141,7141,1
+2025Q3,All eligible,Shrinkage proxy,0.5,180,5460,5460.0,5460,5460,1
+2025Q3,All eligible,Shrinkage proxy,0.8,288,7265,7265.0,7265,7265,1
+2025Q3,No earlier crossing,Gradient boosting,0.5,42,813,813.0,813,813,1
+2025Q3,No earlier crossing,Gradient boosting,0.8,67,2000,2000.0,2000,2000,1
+2025Q3,No earlier crossing,Logistic regression,0.5,42,927,927.0,927,927,1
+2025Q3,No earlier crossing,Logistic regression,0.8,67,1959,1959.0,1959,1959,1
+2025Q3,No earlier crossing,Threshold proximity,0.5,42,1729,1571.4782608695652,1005,5348,4365
+2025Q3,No earlier crossing,Threshold proximity,0.8,67,5637,5637.0,5637,5637,1
+2025Q3,No earlier crossing,History then proximity,0.5,42,1729,1571.4782608695652,1005,5348,4365
+2025Q3,No earlier crossing,History then proximity,0.8,67,5637,5637.0,5637,5637,1
+2025Q3,No earlier crossing,Previous crossing then proximity,0.5,42,1729,1571.4782608695652,1005,5348,4365
+2025Q3,No earlier crossing,Previous crossing then proximity,0.8,67,5637,5637.0,5637,5637,1
+2025Q3,No earlier crossing,Current count,0.5,42,1251,1330.0,616,1449,860
+2025Q3,No earlier crossing,Current count,0.8,67,3046,4327.794871794871,1474,6533,5097
+2025Q3,No earlier crossing,Previous count,0.5,42,1470,1504.818181818182,803,1768,986
+2025Q3,No earlier crossing,Previous count,0.8,67,3249,4355.162162162162,1793,6533,4776
+2025Q3,No earlier crossing,PRR,0.5,42,4817,4817.0,4817,4817,1
+2025Q3,No earlier crossing,PRR,0.8,67,5434,5434.0,5434,5434,1
+2025Q3,No earlier crossing,Shrinkage proxy,0.5,42,4515,4514.5,4514,4515,2
+2025Q3,No earlier crossing,Shrinkage proxy,0.8,67,5533,5533.0,5533,5533,1
+2025Q3,Earlier crossing,Gradient boosting,0.5,139,581,581.0,581,581,1
+2025Q3,Earlier crossing,Gradient boosting,0.8,222,1549,1549.0,1549,1549,1
+2025Q3,Earlier crossing,Logistic regression,0.5,139,682,682.0,682,682,1
+2025Q3,Earlier crossing,Logistic regression,0.8,222,1480,1480.0,1480,1480,1
+2025Q3,Earlier crossing,Threshold proximity,0.5,139,781,781.0,781,781,1
+2025Q3,Earlier crossing,Threshold proximity,0.8,222,1801,1803.923076923077,1202,1828,677
+2025Q3,Earlier crossing,History then proximity,0.5,139,781,781.0,781,781,1
+2025Q3,Earlier crossing,History then proximity,0.8,222,1801,1803.923076923077,1202,1828,677
+2025Q3,Earlier crossing,Previous crossing then proximity,0.5,139,662,634.6764705882352,628,855,260
+2025Q3,Earlier crossing,Previous crossing then proximity,0.8,222,1523,1590.0731707317073,1325,1897,612
+2025Q3,Earlier crossing,Current count,0.5,139,1010,1029.45,852,1359,586
+2025Q3,Earlier crossing,Current count,0.8,222,1760,1804.909090909091,1442,2440,1085
+2025Q3,Earlier crossing,Previous count,0.5,139,890,899.6428571428571,737,944,248
+2025Q3,Earlier crossing,Previous count,0.8,222,1720,1735.5106382978724,1303,1765,508
+2025Q3,Earlier crossing,PRR,0.5,139,1131,1131.0,1131,1131,1
+2025Q3,Earlier crossing,PRR,0.8,222,1711,1711.0,1711,1711,1
+2025Q3,Earlier crossing,Shrinkage proxy,0.5,139,997,998.5,997,1000,4
+2025Q3,Earlier crossing,Shrinkage proxy,0.8,222,1802,1802.0,1802,1802,1
+2025Q4,All eligible,Gradient boosting,0.5,184,1026,1026.0,1026,1026,1
+2025Q4,All eligible,Gradient boosting,0.8,295,2511,2511.0,2511,2511,1
+2025Q4,All eligible,Logistic regression,0.5,184,975,975.0,975,975,1
+2025Q4,All eligible,Logistic regression,0.8,295,2567,2567.0,2567,2567,1
+2025Q4,All eligible,Threshold proximity,0.5,184,1819,1820.3333333333333,1819,1823,6
+2025Q4,All eligible,Threshold proximity,0.8,295,6848,6847.5,6847,6848,2
+2025Q4,All eligible,History then proximity,0.5,184,1146,1146.0,1146,1146,1
+2025Q4,All eligible,History then proximity,0.8,295,2643,2644.5,2639,2650,12
+2025Q4,All eligible,Previous crossing then proximity,0.5,184,1475,1475.0,1475,1475,1
+2025Q4,All eligible,Previous crossing then proximity,0.8,295,6304,5926.641025641025,2693,6634,3979
+2025Q4,All eligible,Current count,0.5,184,1614,1532.5714285714284,1260,1737,518
+2025Q4,All eligible,Current count,0.8,295,4437,4573.182795698925,3282,9602,6412
+2025Q4,All eligible,Previous count,0.5,184,1276,1306.235294117647,1222,1580,391
+2025Q4,All eligible,Previous count,0.8,295,3469,3195.4655172413795,2359,3924,1622
+2025Q4,All eligible,PRR,0.5,184,6877,6877.0,6877,6877,1
+2025Q4,All eligible,PRR,0.8,295,8036,8036.0,8036,8036,1
+2025Q4,All eligible,Shrinkage proxy,0.5,184,6189,6189.0,6189,6189,1
+2025Q4,All eligible,Shrinkage proxy,0.8,295,7865,7865.0,7865,7865,1
+2025Q4,No earlier crossing,Gradient boosting,0.5,32,540,540.0,540,540,1
+2025Q4,No earlier crossing,Gradient boosting,0.8,52,1953,1953.0,1953,1953,1
+2025Q4,No earlier crossing,Logistic regression,0.5,32,737,737.0,737,737,1
+2025Q4,No earlier crossing,Logistic regression,0.8,52,2331,2331.0,2331,2331,1
+2025Q4,No earlier crossing,Threshold proximity,0.5,32,1090,1090.0,1090,1090,1
+2025Q4,No earlier crossing,Threshold proximity,0.8,52,6123,6125.0,6122,6128,7
+2025Q4,No earlier crossing,History then proximity,0.5,32,1090,1090.0,1090,1090,1
+2025Q4,No earlier crossing,History then proximity,0.8,52,6123,6125.0,6122,6128,7
+2025Q4,No earlier crossing,Previous crossing then proximity,0.5,32,1090,1090.0,1090,1090,1
+2025Q4,No earlier crossing,Previous crossing then proximity,0.8,52,6123,6125.0,6122,6128,7
+2025Q4,No earlier crossing,Current count,0.5,32,1014,973.8571428571429,729,1586,870
+2025Q4,No earlier crossing,Current count,0.8,52,4119,3989.7916666666665,1606,6807,5224
+2025Q4,No earlier crossing,Previous count,0.5,32,830,820.8571428571429,527,901,387
+2025Q4,No earlier crossing,Previous count,0.8,52,3088,3105.0588235294117,1966,6807,4857
+2025Q4,No earlier crossing,PRR,0.5,32,5468,5468.0,5468,5468,1
+2025Q4,No earlier crossing,PRR,0.8,52,6103,6103.0,6103,6103,1
+2025Q4,No earlier crossing,Shrinkage proxy,0.5,32,5232,5232.0,5232,5232,1
+2025Q4,No earlier crossing,Shrinkage proxy,0.8,52,6112,6112.0,6112,6112,1
+2025Q4,Earlier crossing,Gradient boosting,0.5,152,673,673.0,673,673,1
+2025Q4,Earlier crossing,Gradient boosting,0.8,244,1495,1495.0,1495,1495,1
+2025Q4,Earlier crossing,Logistic regression,0.5,152,642,642.0,642,642,1
+2025Q4,Earlier crossing,Logistic regression,0.8,244,1541,1541.0,1541,1541,1
+2025Q4,Earlier crossing,Threshold proximity,0.5,152,934,934.0,934,934,1
+2025Q4,Earlier crossing,Threshold proximity,0.8,244,1970,1915.439024390244,1428,1999,611
+2025Q4,Earlier crossing,History then proximity,0.5,152,934,934.0,934,934,1
+2025Q4,Earlier crossing,History then proximity,0.8,244,1970,1915.439024390244,1428,1999,611
+2025Q4,Earlier crossing,Previous crossing then proximity,0.5,152,746,754.9411764705883,723,904,197
+2025Q4,Earlier crossing,Previous crossing then proximity,0.8,244,1929,1791.4285714285713,1550,2070,547
+2025Q4,Earlier crossing,Current count,0.5,152,889,865.8461538461538,756,1008,290
+2025Q4,Earlier crossing,Current count,0.8,244,1837,1820.8714285714286,1677,2796,1188
+2025Q4,Earlier crossing,Previous count,0.5,152,785,771.8214285714286,685,828,170
+2025Q4,Earlier crossing,Previous count,0.8,244,1647,1604.4545454545455,1439,1959,563
+2025Q4,Earlier crossing,PRR,0.5,152,1574,1574.0,1574,1574,1
+2025Q4,Earlier crossing,PRR,0.8,244,2128,2128.0,2128,2128,1
+2025Q4,Earlier crossing,Shrinkage proxy,0.5,152,1361,1361.0,1361,1361,1
+2025Q4,Earlier crossing,Shrinkage proxy,0.8,244,2059,2059.0,2059,2059,1
+2026Q1,All eligible,Gradient boosting,0.5,147,806,806.0,806,806,1
+2026Q1,All eligible,Gradient boosting,0.8,236,1980,1980.0,1980,1980,1
+2026Q1,All eligible,Logistic regression,0.5,147,1002,1002.0,1002,1002,1
+2026Q1,All eligible,Logistic regression,0.8,236,2338,2338.0,2338,2338,1
+2026Q1,All eligible,Threshold proximity,0.5,147,1531,1531.0,1531,1531,1
+2026Q1,All eligible,Threshold proximity,0.8,236,5696,5694.5,5692,5697,6
+2026Q1,All eligible,History then proximity,0.5,147,992,994.2407407407408,979,1802,876
+2026Q1,All eligible,History then proximity,0.8,236,2227,2227.0,2227,2227,1
+2026Q1,All eligible,Previous crossing then proximity,0.5,147,1335,1335.0,1335,1335,1
+2026Q1,All eligible,Previous crossing then proximity,0.8,236,5173,5375.707692307693,1882,5731,3913
+2026Q1,All eligible,Current count,0.5,147,1653,1651.5454545454545,1032,2047,1091
+2026Q1,All eligible,Current count,0.8,236,4334,4521.882352941177,2136,6868,4850
+2026Q1,All eligible,Previous count,0.5,147,1263,1285.4285714285713,1242,1546,345
+2026Q1,All eligible,Previous count,0.8,236,2663,2606.1428571428573,2165,3323,1199
+2026Q1,All eligible,PRR,0.5,147,4817,4817.0,4817,4817,1
+2026Q1,All eligible,PRR,0.8,236,5736,5736.0,5736,5736,1
+2026Q1,All eligible,Shrinkage proxy,0.5,147,4463,4464.0,4463,4466,5
+2026Q1,All eligible,Shrinkage proxy,0.8,236,5760,5760.0,5760,5760,1
+2026Q1,No earlier crossing,Gradient boosting,0.5,25,649,649.0,649,649,1
+2026Q1,No earlier crossing,Gradient boosting,0.8,40,1707,1707.0,1707,1707,1
+2026Q1,No earlier crossing,Logistic regression,0.5,25,735,735.0,735,735,1
+2026Q1,No earlier crossing,Logistic regression,0.8,40,1960,1960.0,1960,1960,1
+2026Q1,No earlier crossing,Threshold proximity,0.5,25,2510,2312.7200000000003,682,3818,3160
+2026Q1,No earlier crossing,Threshold proximity,0.8,40,4093,4093.0,4093,4093,1
+2026Q1,No earlier crossing,History then proximity,0.5,25,2510,2312.7200000000003,682,3818,3160
+2026Q1,No earlier crossing,History then proximity,0.8,40,4093,4093.0,4093,4093,1
+2026Q1,No earlier crossing,Previous crossing then proximity,0.5,25,2510,2312.7200000000003,682,3818,3160
+2026Q1,No earlier crossing,Previous crossing then proximity,0.8,40,4093,4093.0,4093,4093,1
+2026Q1,No earlier crossing,Current count,0.5,25,2554,2041.7222222222222,935,4557,3657
+2026Q1,No earlier crossing,Current count,0.8,40,3923,3565.8888888888887,950,4572,3657
+2026Q1,No earlier crossing,Previous count,0.5,25,1101,1000.2727272727273,799,1537,748
+2026Q1,No earlier crossing,Previous count,0.8,40,3162,2894.222222222222,1552,4572,3037
+2026Q1,No earlier crossing,PRR,0.5,25,3430,3430.0,3430,3430,1
+2026Q1,No earlier crossing,PRR,0.8,40,3911,3910.5,3910,3911,2
+2026Q1,No earlier crossing,Shrinkage proxy,0.5,25,3399,3399.0,3399,3399,1
+2026Q1,No earlier crossing,Shrinkage proxy,0.8,40,3993,3992.5,3992,3993,2
+2026Q1,Earlier crossing,Gradient boosting,0.5,123,525,525.0,525,525,1
+2026Q1,Earlier crossing,Gradient boosting,0.8,196,1151,1151.0,1151,1151,1
+2026Q1,Earlier crossing,Logistic regression,0.5,123,622,622.0,622,622,1
+2026Q1,Earlier crossing,Logistic regression,0.8,196,1389,1389.0,1389,1389,1
+2026Q1,Earlier crossing,Threshold proximity,0.5,123,798,797.5,793,799,9
+2026Q1,Earlier crossing,Threshold proximity,0.8,196,1761,1790.037037037037,1028,1851,876
+2026Q1,Earlier crossing,History then proximity,0.5,123,798,797.5,793,799,9
+2026Q1,Earlier crossing,History then proximity,0.8,196,1761,1790.037037037037,1028,1851,876
+2026Q1,Earlier crossing,Previous crossing then proximity,0.5,123,747,740.0967741935484,579,806,257
+2026Q1,Earlier crossing,Previous crossing then proximity,0.8,196,1707,1724.0975609756097,1185,1898,753
+2026Q1,Earlier crossing,Current count,0.5,123,783,834.1940298507462,646,1113,533
+2026Q1,Earlier crossing,Current count,0.8,196,1463,1635.2857142857142,1186,2296,1193
+2026Q1,Earlier crossing,Previous count,0.5,123,776,782.16,720,831,135
+2026Q1,Earlier crossing,Previous count,0.8,196,1315,1323.25,1092,1351,286
+2026Q1,Earlier crossing,PRR,0.5,123,1315,1316.0,1307,1322,19
+2026Q1,Earlier crossing,PRR,0.8,196,1824,1824.0,1824,1824,1
+2026Q1,Earlier crossing,Shrinkage proxy,0.5,123,1208,1210.5,1208,1213,6
+2026Q1,Earlier crossing,Shrinkage proxy,0.8,196,1825,1825.0,1825,1825,1

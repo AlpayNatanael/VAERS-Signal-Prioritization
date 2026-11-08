@@ -1,0 +1,6 @@
+{
+  "all_passed": true,
+  "exhaustive_permutations": 24,
+  "expected_top3_positives": 2.0,
+  "expected_reviews_for_2_positives": 2.6666666666666665
+}
